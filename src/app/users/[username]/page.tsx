@@ -14,7 +14,7 @@ import EditUser from '@/components/EditUser'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import AppLineChart from '@/components/AppLineChart'
 
-const SingleUserPage = ({ params }: { params: { username?: string } }) => {
+const SingleUserPage = ({ params }: { params: { username?: string | undefined } }) => {
 
   const { username } = params
 
