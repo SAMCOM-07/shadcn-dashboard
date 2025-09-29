@@ -21,9 +21,7 @@ import EditUser from '@/components/EditUser'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import AppLineChart from '@/components/AppLineChart'
 
-const SingleUserPage = ({ params }: { params: { username: string } }) => {
-
-  const { username } = params
+const SingleUserPage = () => {
 
   return (
     <div className=''>
@@ -38,8 +36,7 @@ const SingleUserPage = ({ params }: { params: { username: string } }) => {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbPage>{username ? username.charAt(0).toUpperCase() + username.slice(1) : 'Unknown User'}
-            </BreadcrumbPage>
+            <BreadcrumbPage>Details</BreadcrumbPage>
           </BreadcrumbItem>
         </BreadcrumbList>
       </Breadcrumb>
