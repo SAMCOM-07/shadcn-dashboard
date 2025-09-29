@@ -1,6 +1,6 @@
 'use client'
 
-import { Laptop, LogOut, Moon, Settings, Sidebar, Sun, User } from 'lucide-react'
+import { LogOut, Moon, Settings, Sun, User } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
